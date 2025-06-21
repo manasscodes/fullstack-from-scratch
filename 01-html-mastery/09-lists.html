@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists Demo</title>
+</head>
+<body>
+    <h1>HTML Lists Demonstration</h1>
+
+    <!-- Unordered List (ul) - Used for items where order doesn't matter -->
+    <h2>Unordered List (ul) - Shopping List</h2>
+    <ul>
+        <li>Milk</li>
+        <li>Bread</li>
+        <li>Eggs</li>
+        <li>Fruits
+            <ul>
+                <!-- Nested list example -->
+                <li>Apples</li>
+                <li>Bananas</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- Ordered List (ol) - Used when sequence matters -->
+    <h2>Ordered List (ol) - Recipe Steps</h2>
+    <ol>
+        <li>Preheat oven to 350°F</li>
+        <li>Mix ingredients
+            <ol type="a">
+                <!-- Nested ordered list with letters -->
+                <li>Combine flour and sugar</li>
+                <li>Add eggs and milk</li>
+            </ol>
+        </li>
+        <li>Bake for 30 minutes</li>
+    </ol>
+
+    <!-- Description List (dl) - Used for term-definition pairs -->
+    <h2>Description List (dl) - HTML List Types</h2>
+    <dl>
+        <dt>Unordered List (ul)</dt>
+        <dd>Used for grouping items where order is not important. Items are typically marked with bullets.</dd>
+        
+        <dt>Ordered List (ol)</dt>
+        <dd>Used for sequential items. Items are automatically numbered.</dd>
+        
+        <dt>Description List (dl)</dt>
+        <dd>Used for term-definition pairs. Contains dt (term) and dd (description) elements.</dd>
+    </dl>
+</body>
+</html>

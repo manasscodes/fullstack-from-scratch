@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block vs Inline Elements</title>
+    <style>
+        /* Adding some basic styling to highlight the differences */
+        .block-element {
+            border: 2px solid blue;
+            margin: 10px;
+            padding: 10px;
+        }
+        .inline-element {
+            border: 2px solid red;
+            margin: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Block Elements Example -->
+    <h2>Block Elements</h2>
+    <p class="block-element">Block elements take up the full width available and start on a new line.</p>
+    <div class="block-element">This div is a block element</div>
+    <section class="block-element">This section is also a block element</section>
+
+    <!-- Inline Elements Example -->
+    <h2>Inline Elements</h2>
+    <p>Inline elements only take up 
+        <span class="inline-element">as much width as necessary</span> 
+        and <a href="#" class="inline-element">don't force new lines</a>. 
+        They <strong class="inline-element">flow with the text</strong> content.
+    </p>
+
+    <!-- Common Block Elements List -->
+    <h3>Common Block Elements:</h3>
+    <ul>
+        <li>&lt;div&gt;</li>
+        <li>&lt;p&gt;</li>
+        <li>&lt;h1&gt; to &lt;h6&gt;</li>
+        <li>&lt;section&gt;</li>
+        <li>&lt;article&gt;</li>
+    </ul>
+
+    <!-- Common Inline Elements List -->
+    <h3>Common Inline Elements:</h3>
+    <ul>
+        <li>&lt;span&gt;</li>
+        <li>&lt;a&gt;</li>
+        <li>&lt;strong&gt;</li>
+        <li>&lt;em&gt;</li>
+        <li>&lt;img&gt;</li>
+    </ul>
+</body>
+</html>

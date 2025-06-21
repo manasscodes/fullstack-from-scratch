@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables Demo</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Tables Tutorial</h1>
+
+    <!-- Basic Table Structure -->
+    <h2>Basic Table</h2>
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+            <td>Row 1, Cell 3</td>
+        </tr>
+    </table>
+
+    <!-- Table with Colspan -->
+    <h2>Table with Colspan (Horizontal Merging)</h2>
+    <table>
+        <tr>
+            <th colspan="3">Merged Header Cells</th>
+        </tr>
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+        </tr>
+    </table>
+
+    <!-- Table with Rowspan -->
+    <h2>Table with Rowspan (Vertical Merging)</h2>
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th rowspan="3">Merged Rows</th>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+        </tr>
+        <tr>
+            <td>Row 3, Cell 1</td>
+            <td>Row 3, Cell 2</td>
+        </tr>
+    </table>
+
+    <!-- Complex Table with Both Colspan and Rowspan -->
+    <h2>Complex Table Example</h2>
+    <table>
+        <tr>
+            <th colspan="2">Student Information</th>
+            <th rowspan="2">Grades</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>ID</td>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>12345</td>
+            <td>A</td>
+        </tr>
+    </table>
+
+    <!-- Table with Caption and Semantic Structure -->
+    <h2>Semantic Table Structure</h2>
+    <table>
+        <caption>Student Records</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jane Smith</td>
+                <td>Mathematics</td>
+                <td>95</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Average Score:</td>
+                <td>95</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

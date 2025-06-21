@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Tutorial</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+
+    <!-- Basic Form Structure -->
+    <section>
+        <h2>Basic Form Example</h2>
+        <!-- The form element with action (where to send data) and method (how to send it) -->
+        <form action="/submit" method="post">
+            <!-- Text Input -->
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter username" required>
+            </div>
+
+            <!-- Password Input -->
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <!-- Email Input -->
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@domain.com">
+            </div>
+
+            <!-- Number Input -->
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="0" max="150">
+            </div>
+
+            <!-- Radio Buttons -->
+            <div>
+                <p>Gender:</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+
+            <!-- Checkboxes -->
+            <div>
+                <p>Interests:</p>
+                <input type="checkbox" id="coding" name="interests" value="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" id="reading" name="interests" value="reading">
+                <label for="reading">Reading</label>
+            </div>
+
+            <!-- Select Dropdown -->
+            <div>
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="">Select a country</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="canada">Canada</option>
+                </select>
+            </div>
+
+            <!-- Textarea -->
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            </div>
+
+            <!-- File Upload -->
+            <div>
+                <label for="file">Upload File:</label>
+                <input type="file" id="file" name="file">
+            </div>
+
+            <!-- Date Input -->
+            <div>
+                <label for="birthdate">Birth Date:</label>
+                <input type="date" id="birthdate" name="birthdate">
+            </div>
+
+            <!-- Form Buttons -->
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Form Attributes Explanation -->
+    <section>
+        <h2>Important Form Attributes & Notes:</h2>
+        <ul>
+            <li><strong>action:</strong> Specifies where form data should be sent</li>
+            <li><strong>method:</strong> Defines how data is sent (GET or POST)</li>
+            <li><strong>required:</strong> Makes a field mandatory</li>
+            <li><strong>placeholder:</strong> Shows hint text in input fields</li>
+            <li><strong>value:</strong> Sets default value for an input</li>
+            <li><strong>disabled:</strong> Makes an input unusable</li>
+            <li><strong>readonly:</strong> Makes an input read-only</li>
+            <li><strong>maxlength:</strong> Sets maximum characters allowed</li>
+            <li><strong>min/max:</strong> Sets minimum/maximum values for number inputs</li>
+            <li><strong>pattern:</strong> Defines a regular expression pattern for validation</li>
+        </ul>
+    </section>
+
+    <!-- Form Validation -->
+    <section>
+        <h2>Form Validation Types:</h2>
+        <ul>
+            <li>Required fields validation</li>
+            <li>Email format validation</li>
+            <li>Number range validation</li>
+            <li>Pattern matching (using regex)</li>
+            <li>Custom validation using JavaScript</li>
+        </ul>
+    </section>
+
+    <!-- Form Security Notes -->
+    <section>
+        <h2>Security Best Practices:</h2>
+        <ul>
+            <li>Always validate data on server-side</li>
+            <li>Use HTTPS for secure data transmission</li>
+            <li>Implement CSRF protection</li>
+            <li>Sanitize user input</li>
+            <li>Use appropriate input types for data validation</li>
+        </ul>
+    </section>
+</body>
+</html>
