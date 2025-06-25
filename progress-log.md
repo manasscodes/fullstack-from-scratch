@@ -29,3 +29,18 @@
   - Introduction to Flexbox, media queries, and transform
 
 📝 Added all detailed notes to `02-css-styling/notes.md`
+
+## Day 4 – June 25, 2025
+
+🧑‍💻 **Built My First Responsive Portfolio**
+
+- Created `03-portfolio-html-css/` directory
+- Built a personal portfolio using **only HTML + CSS**
+- Applied:
+  - Semantic HTML structure
+  - CSS Flexbox for layout
+  - Media queries for responsive design
+- Sections included: Header, About, Projects, Contact
+- Designed mobile-first for better UX on all devices
+
+🚀 Feels great to apply what I learned in the past 3 days!
