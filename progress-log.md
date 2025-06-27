@@ -44,3 +44,8 @@
 - Designed mobile-first for better UX on all devices
 
 🚀 Feels great to apply what I learned in the past 3 days!
+
+## Day 5 – June 27, 2025
+- 🎉 Completed **HTML + CSS** projects:
+  - Personal Portfolio
+  - Education Platform
